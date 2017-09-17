@@ -1,0 +1,47 @@
+extends: standard
+
+env:
+  node: true
+  es6: true
+
+parserOptions:
+  ecmaVersion: 2017
+
+rules:
+
+  # strict mode
+  # strict: [2, global]
+
+  # `()`
+  arrow-parens: [2, as-needed]
+
+  # always `===`
+  eqeqeq: 0
+
+  # fails for arrow functions
+  no-return-assign: 0
+
+  # must use `const` or `let`, disable `var`
+  no-var: 2
+
+  # always use semi
+  semi: [2, always]
+
+  no-extra-semi: 2
+
+  space-before-function-paren: [2, never]
+
+  yoda: 0
+
+  dot-location: [2, property]
+
+  prefer-arrow-callback: 2
+
+  # cannot use `async` without `await`
+  require-await: 2
+
+  # perfer `const` to `let`
+  prefer-const: 2
+
+  # add space when use `=>`
+  arrow-spacing: [2, {before: true, after: true}]

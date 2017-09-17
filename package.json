@@ -1,0 +1,54 @@
+{
+  "name": "express-bbs",
+  "version": "1.0.0",
+  "description": "Simple bbs (A Message Board) based on Nodejs and MySQL",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claude-Ray/express-bbs.git"
+  },
+  "author": "claude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Claude-Ray/express-bbs/issues"
+  },
+  "homepage": "https://github.com/Claude-Ray/express-bbs#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "compression": "^1.7.0",
+    "config": "^1.26.2",
+    "connect-redis": "^3.3.0",
+    "cookie-parser": "^1.4.3",
+    "cron": "^1.3.0",
+    "debug": "^3.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "express-validator": "^4.1.1",
+    "fs-extra": "^4.0.2",
+    "ioredis": "^3.1.4",
+    "lodash": "^4.17.4",
+    "log4js": "^2.3.3",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.2",
+    "request-promise": "^4.2.1",
+    "response-time": "^2.3.2",
+    "sequelize": "^4.8.4",
+    "serve-favicon": "^2.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
