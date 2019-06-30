@@ -173,4 +173,8 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+# package-lock
+package-lock.json
+
 # End of https://www.gitignore.io/api/vim,node,macos,webstorm,visualstudiocode
+
