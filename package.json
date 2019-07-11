@@ -40,7 +40,7 @@
     "mysql2": "^1.4.2",
     "request-promise": "^4.2.4",
     "response-time": "^2.3.2",
-    "sequelize": "^4.8.4",
+    "sequelize": "^5.9.4",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
